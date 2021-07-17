@@ -1,3 +1,12 @@
+th {
+    font-size: 120%;
+}
+
+td {
+    font-size: 200%;
+}
+
+
 .zoom{
     transition: transform 0.18s;
 }
@@ -43,6 +52,9 @@
 .space1 {
     height: 20em;
 }
+.space2 {
+    height: 3em;
+}
 
 .bigger-font {
     font-size: 105%;
@@ -53,5 +65,5 @@
 }
 
 #buttonBox {
-    transition: transform 0.6s;
+    transition: transform 200ms;
 }

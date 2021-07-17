@@ -25,7 +25,7 @@
 <nav class="navbar navbar-expand-xs bg-clear justify-content-center navbar-dark">
     <a class="navbar-brand" href="#">Music Prompt Generator</a>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -42,18 +42,15 @@
                 </a>
             </li>
         </ul>
-    </div>
+    </div> -->
 </nav>
 
 
-
-
-
 <!-- main content -->
-<div class="container">
+<div id="main" class="container">
 
     <!-- button -->
-    <div id="space1" class="space1"></div>
+    <div id="space1" class="space1" class="collapse show"></div>
     <div id="buttonBox" class="collapse show">
         <div class="d-flex justify-content-center my-auto">
             <button id="generator" class="btn btn-primary p-4 rounded-circle zoom shadow">
@@ -64,16 +61,33 @@
     </div>
 
     <div id="newContent" class="collapse">
-        <p>
-            weghiowaehgioweahgiowaeweagawe
-            gweahiewagweaggewaewagewaweag
-            pghweapghwepaweaggwaeweagwea
-            ghweaipghwagweagweaggewagwea
-            epighweaipawegweagweagweagwa
-            ghpweiweagwaegweagawegwaegeaw
-            aghwaegwaegweaewagweagweagewa
+        <h1 class="text-center mb-5">
+            The Prompt
+        </h1>
+        <table class="table text-light text-center p-5 shadow">
+            <thead>
+                <tr>
+                    <th>Tempo</th>
+                    <th>Mood</th>
+                    <th>Style</th>
+                    <th>Context</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="item0" >-</td>
+                    <td id="item1" >-</td>
+                    <td id="item2" >-</td>
+                    <td id="item3" >-</td>
+                </tr>
+            </tbody>
+        </table>
 
-        </p>
+
+        <div class="space2"></div>
+        <div class="d-flex justify-content-center">
+            <button id="reload" type="button" class="btn btn-large btn-outline-primary">Generate Again</button>
+        </div>
     </div>
     
 
@@ -88,5 +102,7 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init({ once: true, });
+    console.log("AOS");
 </script>
+
 </body>
