@@ -1,0 +1,92 @@
+<!-- Looks like somebody's poking around on my website. Have fun! -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Music Prompt Generator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap and jquery -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/d687bf9a07.js" crossorigin="anonymous"></script>
+    <!-- animate on scroll effect -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- custom styles and scripts -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body class="bg-dark text-light content">
+
+
+<nav class="navbar navbar-expand-xs bg-clear justify-content-center navbar-dark">
+    <a class="navbar-brand" href="#">Music Prompt Generator</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav text-center">
+            <li class="nav-item">
+                <a class="nav-link bigger-font" href="#">
+                    <i class="fas fa-question-circle"></i> Help
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link bigger-font" href="#">
+                    <i class="fas fa-info-circle"></i> About
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+
+
+<!-- main content -->
+<div class="container">
+
+    <!-- button -->
+    <div id="space1" class="space1"></div>
+    <div id="buttonBox" class="collapse show">
+        <div class="d-flex justify-content-center my-auto">
+            <button id="generator" class="btn btn-primary p-4 rounded-circle zoom shadow">
+                <div class="mt-5 bigger-font">Generate Music Prompt</div>
+                <div class="spinner-grow text-light mt-2 mb-5"></div>
+            </button>
+        </div>
+    </div>
+
+    <div id="newContent" class="collapse">
+        <p>
+            weghiowaehgioweahgiowaeweagawe
+            gweahiewagweaggewaewagewaweag
+            pghweapghwepaweaggwaeweagwea
+            ghweaipghwagweagweaggewagwea
+            epighweaipawegweagweagweagwa
+            ghpweiweagwaegweagawegwaegeaw
+            aghwaegwaegweaewagweagweagewa
+
+        </p>
+    </div>
+    
+
+
+
+
+</div>
+
+
+
+<!-- animate on scroll script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({ once: true, });
+</script>
+</body>
